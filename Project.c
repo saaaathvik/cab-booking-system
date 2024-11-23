@@ -615,7 +615,7 @@ cfp=fopen("Customer_Details.txt","w");
 fwrite(&Customer,sizeof(struct C),1,cfp);
 fclose(cfp);
 
-//Checking if it was upoaded properly
+//Checking if it was uploaded properly
 /*cfp=fopen("Customer_Details.txt","r");
 fread(&Customer,sizeof(struct C),1,cfp);
 printf("%d\n",Customer.Cancellation);
